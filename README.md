@@ -16,9 +16,9 @@ This project implements the classic Snake game using Pygame and integrates reinf
    git clone https://github.com/Kanaga2004/SnakeGameAI
 
 2. Navigate to the project directory:
-  ```bash
-  cd SnakeGameAI
-
+   ```bash
+   cd SnakeGameAI
+   
 3. Setup Environment (if conda environment is not set)
    - Install Pytorch
      ```bash
@@ -27,5 +27,28 @@ This project implements the classic Snake game using Pygame and integrates reinf
    - Install Pygame
      ```bash
      pip install pygame
+
+   - Install Matplotlib, Numpy and Panda
+     ```bash
+     pip install matplotlib
+     pip install numpy
+     pip install panda
+
+## Usage
+
+To run the code, navigate to the project directory in the terminal and type the following command:
+```bash
+python agent.py
+```
+
+On running this code you will receive a prompt
+```bash
+Hello from the pygame community. https://www.pygame.org/contribute.html
+Enter 'train' to train the model or 'play' to use the trained model:
+```
+Type train to train a new model and replace the existing model or type play to see how the trained model works.
+
+
+
 
  
