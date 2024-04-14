@@ -1,7 +1,8 @@
 # SnakeGameAI
 
 ## Overview
-This project implements the classic Snake game using Pygame and integrates reinforcement learning (RL) techniques for controlling the movement of the snake. The snake agent learns to navigate the game environment to collect food items while avoiding collisions with itself and the boundaries.
+
+The Snake Game AI project aims to implement an intelligent agent capable of playing the classic Snake game autonomously. Leveraging reinforcement learning techniques, the agent learns to navigate the game environment, avoid obstacles, and consume food items to increase its score. The project consists of several key components, including the game engine itself, the reinforcement learning agent, and the neural network model used for decision-making. Through iterative training sessions, the agent learns optimal strategies for maximizing its score while avoiding collisions with itself and the game boundaries.
 
 ## Features
 - game.py: Contains the implementation of the Snake game using Pygame, including game mechanics and user interface.
