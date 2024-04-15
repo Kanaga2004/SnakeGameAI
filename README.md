@@ -10,6 +10,7 @@ The Snake Game AI project aims to implement an intelligent agent capable of play
 - model.py: Defines the neural network model used by the agent to make decisions based on the game state.
 - learner.py: Implements the reinforcement learning algorithm used by the agent to train and update its neural network model.
 - dqn.pth: A pre-trained model file containing the weights of the neural network trained using the Deep Q-Network (DQN) algorithm.
+- helper.py: Defines the visualization plots 
 
 ## Installation
 1. Clone the repository to your local machine:
